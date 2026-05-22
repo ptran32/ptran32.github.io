@@ -1,8 +1,7 @@
 ---
-layout: post
 title: High availability and long term storage Prometheus using Thanos
 subtitle:
-tags: [monitoring]
+categories: [monitoring]
 ---
 
 When it comes to monitoring, prometheus is probably one of the option who's gonna come out.

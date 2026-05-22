@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Persistent storage with kubernetes
 subtitle:
-tags: [containers]
+categories: [containers]
 ---
 
 Do you think storage is complicated in kubernetes, yes it is.

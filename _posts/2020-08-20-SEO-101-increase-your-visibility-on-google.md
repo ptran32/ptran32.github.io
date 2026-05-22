@@ -1,8 +1,7 @@
 ---
-layout: post
 title: SEO 101 - Tips to increase your visibility on Google
 subtitle:
-tags: [tips]
+categories: [tips]
 ---
 
 Today we'll talk about how you can increase your website visibility on Google using very simple SEO techniques.

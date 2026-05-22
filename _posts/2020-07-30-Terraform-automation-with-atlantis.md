@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Terraform automation with atlantis
 subtitle:
-tags: [automation]
+categories: [automation]
 ---
 
 Plan and apply terraform state from a central place with Atlantis.

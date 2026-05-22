@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Kubernetes management with Rancher
 subtitle:
-tags: [containers]
+categories: [containers]
 ---
 
 Kubernetes deployment is "easy" with all tools available, but it's difficult to manage, Rancher can help you to deploy and manage a production ready kubernetes platform.

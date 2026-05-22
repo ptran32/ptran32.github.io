@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Hot-warm-cold architecture with Elasticsearch
 subtitle:
-tags: [data]
+categories: [data]
 ---
 
 

@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Configure your mac for productivity
 subtitle:
-tags: [tips]
+categories: [tips]
 ---
 
 Iterm2 + vim + zsh + vscode is all I need

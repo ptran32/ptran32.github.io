@@ -1,8 +1,7 @@
 ---
-layout: post
 title: CI/CD with jenkins and docker multistage build
 subtitle:
-tags: [automation]
+categories: [automation]
 ---
 
 Nowadays, the main goal of every tech company is to ship often and have user feedback as fast as possible. 

@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Collect kubernetes logs with fluentbit and elasticsearch
 subtitle:
-tags: [logs]
+categories: [logs]
 ---
 
 If you're running a kubernetes environment, you probably need to collect logs from your pods.

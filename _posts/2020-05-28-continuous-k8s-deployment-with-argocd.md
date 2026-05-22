@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Continuous k8s deployment with ArgoCD
 subtitle:
-tags: [containers]
+categories: [containers]
 ---
 
 My first post, with covid19, I've got more times to do what I like, testing new stuffs. I've decided to post small posts on what I'm interested right now.
