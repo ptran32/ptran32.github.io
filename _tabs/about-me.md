@@ -1,13 +1,12 @@
 ---
 icon: fas fa-info-circle
 order: 3
+title: About Me
 ---
-
-## About me
 
 *In a few words*
 
-I'm Patrice. I'm drawn to cloud platforms, containers, automation, blockchain, and AI—and I like staying close to what's new in those spaces.
+I'm Patrice. I'm drawn to cloud platforms, containers, automation, blockchain, and AI. I like staying close to what's new in those spaces.
 
 I grew up in Paris and moved to Toronto a couple of years ago to sharpen my English and experience a different culture.
 
