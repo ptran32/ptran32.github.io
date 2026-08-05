@@ -186,7 +186,7 @@ my-app   10        10        10           10
 
 Here's the graphical representation with [kubeview](https://github.com/benc-uk/kubeview). 
 
-![Kubeview screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/07-argorollouts.png?raw=true)
+![Kubeview screenshot](/assets/img/07-argorollouts.png)
 
 
 We can now modify our yml file to switch to the v2 of our application.
@@ -229,7 +229,7 @@ kubectl argo rollouts get rollout my-app --watch
 
 Like expected, we now have 20% of traffic to v2 and 80% to v1, the deployment has paused and is waiting for a human validation.
 
-![argorollouts-canary screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/08-argorollouts-canary.png?raw=true)
+![argorollouts-canary screenshot](/assets/img/08-argorollouts-canary.png)
 
 
 You can verify it by checking the application response
@@ -253,7 +253,7 @@ kubectl argo rollouts promote my-app
 ```
 
 The upgrade process continues following the steps we defined before.
-![argorollouts-canary screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/09-argorollouts-canary2.png?raw=true)
+![argorollouts-canary screenshot](/assets/img/09-argorollouts-canary2.png)
 
 
 ## Deploy a demo app with Blue Green
@@ -273,7 +273,7 @@ kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-rollouts/master
 ```
 
 Note that both services point to v1 for now, it's fine, because, in a real-world, we would only allow traffic to the active service.
-![argorollouts-canary screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/10-argorollouts-bluegreen.png?raw=true)
+![argorollouts-canary screenshot](/assets/img/10-argorollouts-bluegreen.png)
 
 
 **Create the v2 application**
@@ -285,9 +285,9 @@ kubectl argo rollouts set image rollout-bluegreen \ # rollout-bluegreen is the r
 ```
 
 You should now have v1 and v2 running alongside. (It's not obvious on the diagram, but each service points to one version of the app)
-![argorollouts-canary screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/13-argorollouts-bluegreen.png?raw=true)
+![argorollouts-canary screenshot](/assets/img/13-argorollouts-bluegreen.png)
 
-![argorollouts-canary screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/11-argorollouts-bluegreen.png?raw=true)
+![argorollouts-canary screenshot](/assets/img/11-argorollouts-bluegreen.png)
 
 
 If the application looks fine to you, you can now promote the rollout.
@@ -297,9 +297,9 @@ kubectl argo rollouts promote rollout-bluegreen
 
 The ActiveService now points to the v2 ReplicaSet and Argo scaled down the v1.
 
-![argorollouts-canary screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/12-argorollouts-bluegreen.png?raw=true)
+![argorollouts-canary screenshot](/assets/img/12-argorollouts-bluegreen.png)
 
-![argorollouts-canary screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/14-argorollouts-bluegreen.png?raw=true)
+![argorollouts-canary screenshot](/assets/img/14-argorollouts-bluegreen.png)
 
 
 
@@ -328,7 +328,7 @@ I hope you liked this introduction to Argo rollouts ;)
   },
   "headline": "Control your kubernetes deployment with argo rollouts",
   "description": "Control your kubernetes deployment with argo rollouts",
-  "image": "https://raw.githubusercontent.com/ptran32/ptran32.github.io/master/_posts/img/08-argorollouts-canary.png",  
+  "image": "{{ '/assets/img/08-argorollouts-canary.png' | absolute_url }}",
   "author": {
     "@type": "Person",
     "name": "Patrice"

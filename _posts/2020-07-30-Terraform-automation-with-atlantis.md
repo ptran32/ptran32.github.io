@@ -51,12 +51,12 @@ To sum up:
 
 Atlantis automatically run a plan on a pull request. This one has failed because of syntax error.
 
-![Atlantis Failed](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/01-atlantis-failed.png?raw=true)
+![Atlantis Failed](/assets/img/01-atlantis-failed.png)
 
 
 After fixing the syntax issue, verify that the plan output is ok, you or a team member can apply it by a comment: "atlantis apply" 
 
-![Atlantis Succes](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/02-atlantis-success.png?raw=true)
+![Atlantis Succes](/assets/img/02-atlantis-success.png)
 
 You can now merge your changes into master ;)
 
@@ -80,7 +80,7 @@ It eliminates the "I work on my own stuff" and improve team visibility on your p
   },
   "headline": "Terraform automation with atlantis",
   "description": "Use atlantis open source tool to deploy infrastructure with terraform",
-  "image": "https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/02-atlantis-success.png?raw=true",  
+  "image": "{{ '/assets/img/02-atlantis-success.png' | absolute_url }}",
   "author": {
     "@type": "Person",
     "name": "Patrice"

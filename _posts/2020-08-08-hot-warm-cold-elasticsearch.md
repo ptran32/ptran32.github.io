@@ -299,7 +299,7 @@ ILM has huge benetits if you want to operate an ES cluster with a lot of timeser
 
 By using ILM, the ultimate goal is to have improvements on read and writes, and a better cluster stability. My cluster doesn't have enough resource to notice this improvement, but in a real environment, you should see an improvements on these metrics below.
 
-![ES Monitoring](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/04-es-monitoring.png?raw=true)
+![ES Monitoring](/assets/img/04-es-monitoring.png)
 
 
 <script type="application/ld+json">

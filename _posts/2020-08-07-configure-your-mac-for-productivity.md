@@ -8,7 +8,7 @@ Iterm2 + vim + zsh + vscode is all I need
 
 Here's my everyday setup, it's always more confortable to work with tools that make your life easier :) 
 
-![Iterm2 screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/03-iterm2.png?raw=true)
+![Iterm2 screenshot](/assets/img/03-iterm2.png)
 
 ## [Iterm2](https://www.iterm2.com/)
 
@@ -106,11 +106,11 @@ I wait for your recommendation as well ;)
   "@type": "NewsArticle",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/03-iterm2.png?raw=true"
+    "@id": "{{ '/assets/img/03-iterm2.png' | absolute_url }}"
   },
   "headline": "Configure your mac for productivity",
   "description": "Configure your mac for productivity with iterm2, zsh, vscode and spacevim",
-  "image": "https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/03-iterm2.png?raw=true",  
+  "image": "{{ '/assets/img/03-iterm2.png' | absolute_url }}",
   "author": {
     "@type": "Person",
     "name": "Patrice"

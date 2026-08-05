@@ -47,7 +47,7 @@ Then you can manually indicate to Google it's location: [https://search.google.c
 
 Google do it automatically, in my case, I don't have too many URL's and I found it faster to declare them manually in "Inspection URL" section of [https://search.google.com/](https://search.google.com/)
 
-![indexUrl screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/15-seo.png?raw=true)
+![indexUrl screenshot](/assets/img/15-seo.png)
 
 
 ## Use schema markup
@@ -69,7 +69,7 @@ Add a [analytics global site tag](https://support.google.com/analytics/answer/10
 
 You can view these metrics here: [https://analytics.google.com/](https://analytics.google.com/)
 
-![Performance screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/16-seo.png?raw=true)
+![Performance screenshot](/assets/img/16-seo.png)
 
 
 ## Conclusion
@@ -78,6 +78,6 @@ SEO is a huge topic that I barely explain in this article, it's not an exact sci
 
 I'm glad that I've got one of my posts now appears in the first page when searching on Google, using the keywords that I wanted.
 
-![Performance screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/17-seo.png?raw=true)
+![Performance screenshot](/assets/img/17-seo.png)
 
 Hope you enjoyed this 101 SEO. See you soon :)

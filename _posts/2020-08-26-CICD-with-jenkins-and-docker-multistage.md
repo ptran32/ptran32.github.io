@@ -246,11 +246,11 @@ Lines        : 100% ( 34/34 )
 ================================================================================
 ```
 
-![cicd screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/18-cicd.png?raw=true)
+![cicd screenshot](/assets/img/18-cicd.png)
 
 Application is now accessible at **http://node_ip:8080**
 
-![cicd screenshot](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/19-cicd.png?raw=true)
+![cicd screenshot](/assets/img/19-cicd.png)
 
 
 <p>&nbsp;</p>

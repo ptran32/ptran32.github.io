@@ -130,7 +130,7 @@ If connection cannot be made with elasticsearch, you will have errors like below
 
 Fluentbit creates daily index with the pattern kubernetes_cluster-YYYY-MM-DD, verify that your index has been created on elasticsearch.
 
-![ES Monitoring](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/05-fluentbit-es.png?raw=true)
+![ES Monitoring](/assets/img/05-fluentbit-es.png)
 
 If everything is ok, you can create an index pattern with kubernetes*, which will allow you to display the index documents from the UI.
 
@@ -145,7 +145,7 @@ kubectl run log-gen --image mingrammer/flog
 
 You should now see your logs with all kubernetes metadatas added by fluentbit.
 
-![ES Monitoring](https://github.com/ptran32/ptran32.github.io/blob/master/_posts/img/06-fluentbit-es.png?raw=true)
+![ES Monitoring](/assets/img/06-fluentbit-es.png)
 
 
 ## Conclusion
